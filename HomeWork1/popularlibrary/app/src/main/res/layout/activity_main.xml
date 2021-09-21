@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B7DFD6"
+    tools:context="ru.mrroot.popularlibrary.MainActivity">
+
+    <Button
+        android:id="@+id/btn_counter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="11dp"
+        android:text="@string/btn_default_text"
+        app:layout_constraintBottom_toTopOf="@+id/lbl_counter2"
+        app:layout_constraintEnd_toStartOf="@+id/lbl_counter2" />
+
+    <TextView
+        android:id="@+id/lbl_counter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/counter_one"
+        app:layout_constraintBottom_toTopOf="@+id/btn_counter1"
+        app:layout_constraintStart_toStartOf="@+id/btn_counter1" />
+
+    <Button
+        android:id="@+id/btn_counter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="297dp"
+        android:background="@drawable/roundedbutton"
+        android:text="@string/btn_default_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_counter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="@string/counter_three"
+        app:layout_constraintBottom_toTopOf="@+id/btn_counter3"
+        app:layout_constraintEnd_toEndOf="@+id/btn_counter3" />
+
+    <Button
+        android:id="@+id/btn_counter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="9dp"
+        android:text="@string/btn_default_text"
+        app:layout_constraintBottom_toTopOf="@+id/lbl_counter3"
+        app:layout_constraintEnd_toStartOf="@+id/lbl_counter3" />
+
+    <TextView
+        android:id="@+id/lbl_counter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/counter_two"
+        app:layout_constraintBottom_toTopOf="@+id/btn_counter2"
+        app:layout_constraintStart_toStartOf="@+id/btn_counter2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
