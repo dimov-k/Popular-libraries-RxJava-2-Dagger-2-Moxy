@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding">
+
+    <TextView
+        android:id="@+id/tv_repo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="@dimen/header_padding"
+        android:textStyle="bold"
+        tools:text="Repository name" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/tv_padding"
+        tools:text="Description" />
+
+    <TextView
+        android:id="@+id/tv_created_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/tv_padding"
+        tools:text="Created At" />
+
+    <TextView
+        android:id="@+id/tv_updated_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/tv_padding"
+        tools:text="Updated At" />
+
+    <TextView
+        android:id="@+id/tv_pushed_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/tv_padding"
+        tools:text="Pushed_At" />
+
+    <TextView
+        android:id="@+id/tv_forks_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/tv_padding"
+        tools:text="Forks count" />
+
+    <TextView
+        android:id="@+id/tv_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/tv_padding"
+        tools:text="Language" />
+
+    <TextView
+        android:id="@+id/tv_watchers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/tv_padding"
+        tools:text="Watchers" />
+
+    <TextView
+        android:id="@+id/tv_open_issues_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/tv_padding"
+        tools:text="Open Issues Count" />
+
+</LinearLayout>
+
