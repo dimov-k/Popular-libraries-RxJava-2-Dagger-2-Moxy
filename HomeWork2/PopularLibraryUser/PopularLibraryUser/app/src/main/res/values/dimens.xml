@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lbl_counter1_margin_top">16dp</dimen>
+    <dimen name="user_item_height">50dp</dimen>
+    <dimen name="login_margin">16dp</dimen>
+    <dimen name="rv_users_padding_vertical">16dp</dimen>
+</resources>

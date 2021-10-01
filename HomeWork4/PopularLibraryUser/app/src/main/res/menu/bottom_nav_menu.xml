@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_users"
+        android:icon="@drawable/ic_bottom_menu_users"
+        android:title="@string/bottom_menu_title_users" />
+
+    <item
+        android:id="@+id/navigation_convert"
+        android:icon="@drawable/ic_bottom_menu_convert"
+        android:title="@string/bottom_menu_title_convert" />
+</menu>
