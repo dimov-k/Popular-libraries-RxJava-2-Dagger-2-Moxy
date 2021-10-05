@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Popular Library User</string>
+    <string name="login">Логин</string>
+    <string name="bottom_menu_title_users">GH Users</string>
+    <string name="bottom_menu_title_convert">Converter</string>
+    <string name="choose_image">Выбрать рисунок</string>
+    <string name="convert">Конвертировать в PNG</string>
+    <string name="cancel">Отмена</string>
+    <string name="need_permission_failed">Нет разрешения</string>
+    <string name="need_permission_read_file">Требуется разрешение для чтения файлов</string>
+    <string name="grant">Запросить доступ</string>
+    <string name="convert_title">Конвертер</string>
+    <string name="users_title">GH пользователи</string>
+    <string name="permission_failed_to_read_files">Отсутствует разрешение на чтение файлов</string>
+    <string name="permission_failed_to_write_files">Отсутствует разрешение на запись файлов</string>
+    <string name="need_permission_write_file">Требуется разрешение для чтения файлов</string>
+</resources>
